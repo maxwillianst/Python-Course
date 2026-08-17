@@ -1,0 +1,9 @@
+print('======= Exercício aula 09 =======')
+print('======= LEITOR DE NÚMEROS =======')
+
+num = int(input('Digite um número de 0 a 9999: '))
+print('Digíto {}'.format(num))
+print('Unidades {}'.format(num // 1 % 10))
+print('Dezena {}'.format(num // 10 % 10))
+print('Centena {}'.format(num // 100 % 10))
+print('Milhar {}'.format(num // 1000 % 10))

@@ -1,0 +1,13 @@
+print('=======Exercício aula 06=======')
+
+algo = input('Digite algo: ')
+print('Tipo primitivo:', type(algo))
+print('É alfanumérico?', algo.isalnum())
+print('É alfabético?', algo.isalpha())
+print('É numérico?', algo.isnumeric())
+print('É decimal?', algo.isdecimal())
+print('É dígito?', algo.isdigit())
+print('Está em maiúsculas?', algo.isupper())
+print('Está em minúsculas?', algo.islower())
+print('É espaço?', algo.isspace())
+print('É título?', algo.istitle())
